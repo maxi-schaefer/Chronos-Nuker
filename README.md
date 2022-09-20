@@ -4,6 +4,7 @@
 		<img src="https://canary.discordapp.com/api/guilds/999373116918743100/embed.png" alt="Discord server">
 	</a>
 </p>
+
 ## _Open Source Discord Account Nuker_
 This nuker abuses the discord api to mess with user accounts.
 
