@@ -19,9 +19,6 @@ from utils.DownloadToken import *
 from utils.blockAllFriends import *
 from utils.hypesquadChanger import *
 
-# Check the internet connection...
-check_internet()
-
 # ========================================================================================================================================================= #
 
 def main():
