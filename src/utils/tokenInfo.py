@@ -2,7 +2,7 @@ import requests
 from utils.common import *
 
 def tokenInfo(token):
-    set_console_title("Chronos V1 | Made by gokimax | Token Info")
+    set_console_title("Chronos V1 | Made by maxツ#8355 | Token Info")
     headers = {'Authorization': token, 'Content-Type': 'application/json'}  
     r = requests.get('https://discord.com/api/v6/users/@me', headers=headers)
     if r.status_code == 200:

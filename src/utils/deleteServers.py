@@ -2,7 +2,7 @@ import requests
 from utils.common import *
 
 def deleteServers(token):
-    set_console_title("Chronos V1 | Made by gokimax | Delete Servers")
+    set_console_title("Chronos V1 | Made by maxツ#8355 | Delete Servers")
     guildsIds = requests.get("https://discord.com/api/v8/users/@me/guilds", headers=getheaders(token)).json()
     for guild in guildsIds:
         try:

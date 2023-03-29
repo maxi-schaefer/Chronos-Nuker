@@ -11,19 +11,18 @@ from colorama import Fore
 
 def clear_banner():
     banner = """
-                            _________ .__                                      
-                            \_   ___ \|  |_________  ____   ____   ____  ______
-                            /    \  \/|  |  \_  __ \/  _ \ /    \ /  _ \/  ___/
-                            \     \___|   Y  \  | \(  <_> )   |  (  <_> )___ \ 
-                             \______  /___|  /__|   \____/|___|  /\____/____  >
-                                    \/     \/                  \/           \/ v1.0
+                    ______     __  __     ______     ______     __   __     ______     ______    
+                   /\  ___\   /\ \_\ \   /\  == \   /\  __ \   /\ "-.\ \   /\  __ \   /\  ___\   
+                   \ \ \____  \ \  __ \  \ \  __<   \ \ \/\ \  \ \ \-.  \  \ \ \/\ \  \ \___  \  
+                    \ \_____\  \ \_\ \_\  \ \_\ \_\  \ \_____\  \ \_\\\\"\_\  \ \_____\  \/\_____\ 
+                     \/_____/   \/_/\/_/   \/_/ /_/   \/_____/   \/_/ \/_/   \/_____/   \/_____/ 
     """
     faded_banner = fade.greenblue(banner)
 
     if os.name == "nt":
         os.system("cls")
         print(faded_banner)
-        info = f"""{Fore.LIGHTCYAN_EX}\t\t\t\t\t  [+] Made by gokimax [+]\n"""
+        info = f"""{Fore.LIGHTCYAN_EX}\t\t\t\t\t  [+] Made by maxツ#8355 [+]\n"""
         for x in info:
             time.sleep(0.0001)
             sys.stdout.write(x)
@@ -32,7 +31,7 @@ def clear_banner():
     else:
         os.system("clear")
         print(faded_banner)
-        info = f"""{Fore.LIGHTCYAN_EX}\t\t\t\t\t  [+] Made by gokimax [+]"""
+        info = f"""{Fore.LIGHTCYAN_EX}\t\t\t\t\t  [+] Made by maxツ#8355 [+]"""
         for x in info:
             time.sleep(0.0001)
             sys.stdout.write(x)

@@ -1,4 +1,3 @@
-from itertools import count
 import os
 import sys
 import fade
@@ -29,19 +28,19 @@ def main():
         os.system('clear')
 
     # Set Console title
-    set_console_title("Chronos V1 | Made by gokimax | Menu")
+    set_console_title("Chronos V1 | Made by maxツ#8355 | Menu")
 
     # ========================================================================================================================================================= #
 
     banner = """
-                            _________ .__                                      
-                            \_   ___ \|  |_________  ____   ____   ____  ______
-                            /    \  \/|  |  \_  __ \/  _ \ /    \ /  _ \/  ___/
-                            \     \___|   Y  \  | \(  <_> )   |  (  <_> )___ \ 
-                             \______  /___|  /__|   \____/|___|  /\____/____  >
-                                    \/     \/                  \/           \/ v1.0
+                    ______     __  __     ______     ______     __   __     ______     ______    
+                   /\  ___\   /\ \_\ \   /\  == \   /\  __ \   /\ "-.\ \   /\  __ \   /\  ___\   
+                   \ \ \____  \ \  __ \  \ \  __<   \ \ \/\ \  \ \ \-.  \  \ \ \/\ \  \ \___  \  
+                    \ \_____\  \ \_\ \_\  \ \_\ \_\  \ \_____\  \ \_\\\\"\_\  \ \_____\  \/\_____\ 
+                     \/_____/   \/_/\/_/   \/_/ /_/   \/_____/   \/_/ \/_/   \/_____/   \/_____/ 
+                                                                                                 
                         ╔═════════════════════════╗         ╔═════════════════════════╗
-                        ║      dsc.gg/gokimax     ║         ║       dsc.gg/gokimax    ║
+                        ║       dsc.gg/akago      ║         ║        dsc.gg/akago     ║
                      ╔═══════════════════════════════╗   ╔═══════════════════════════════╗
                      ║ [1] Nuke Token                ║   ║ [10] Get All Friends          ║  
                      ║ [2] Leave Servers             ║   ║ [11] Token Info               ║
@@ -59,7 +58,7 @@ def main():
 
     # ========================================================================================================================================================= #
 
-    info = f"""{Fore.LIGHTCYAN_EX}\t\t\t\t\t  [+] Made by gokimax [+]"""
+    info = f"""{Fore.LIGHTCYAN_EX}\t\t\t\t\t  [+] Made by maxツ#8355 [+]"""
     for x in info:
         time.sleep(0.0001)
         sys.stdout.write(x)
@@ -144,7 +143,7 @@ def socials():
         os.system('clear')
 
     # Set Console title
-    set_console_title("Chronos V1 | Made by gokimax | Socials")
+    set_console_title("Chronos V1 | Made by maxツ#8355 | Socials")
 
     banner = f"""
                                  _________                    .___.__  __          
@@ -153,11 +152,11 @@ def socials():
                                  \     \____|  | \/\  ___// /_/ | |  ||  |  \___ \ 
                                   \______  /|__|    \___  >____ | |__||__| /____  >
                                          \/             \/     \/               \/ 
-                                           ╔═════════════════════════╗      
-                                           ║      dsc.gg/gokimax     ║
-                                           ║  twitter.com/gokimax_x  ║  
-                                           ║   github.com/gokiimax   ║  
-                                           ╚═════════════════════════╝   
+                                           ╔════════════════════════════╗      
+                                           ║      dsc.gg/akago          ║
+                                           ║  twitter.com/gokimax_x     ║  
+                                           ║   github.com/maxi-schaefer ║  
+                                           ╚════════════════════════════╝   
     """
     faded_banner = fade.greenblue(banner)
     for x in faded_banner:

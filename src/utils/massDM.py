@@ -2,7 +2,7 @@ import requests
 from utils.common import *
 
 def massDM(token, content):
-    set_console_title("Chronos V1 | Made by gokimax | Mass DM")
+    set_console_title("Chronos V1 | Made by maxツ#8355 | Mass DM")
     headers = {'Authorization': token}
     channelIds = requests.get("https://discord.com/api/v9/users/@me/channels", headers=getheaders(token)).json()
     for channel in channelIds:

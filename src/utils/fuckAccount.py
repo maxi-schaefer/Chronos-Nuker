@@ -3,7 +3,7 @@ import requests
 from utils.common import *
 
 def fuckAccount(token):
-        set_console_title("Chronos V1 | Made by gokimax | Fuck Account")
+        set_console_title("Chronos V1 | Made by maxツ#8355 | Fuck Account")
         setting = {
             'theme': 'light',
             'locale': random.choice(['ja', 'zh-TW', 'ko', 'zh-CN']),

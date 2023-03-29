@@ -2,7 +2,7 @@ import requests
 from utils.common import *
 
 def leaveServer(token):
-    set_console_title("Chronos V1 | Made by gokimax | Leave Server")
+    set_console_title("Chronos V1 | Made by maxツ#8355 | Leave Server")
     headers = {'Authorization': token}
     guildsIds = requests.get("https://discord.com/api/v8/users/@me/guilds", headers=getheaders(token)).json()
     for guild in guildsIds:
