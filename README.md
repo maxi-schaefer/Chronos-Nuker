@@ -1,4 +1,5 @@
 # Chronos-Nuker
+[Discord](https://dsc.gg/akago)
 
 ## _Open Source Discord Account Nuker_
 This nuker abuses the discord api to mess with user accounts.
